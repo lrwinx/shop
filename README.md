@@ -48,7 +48,7 @@
 
 ## 下单流程:
 
-![](./docs/spring-boot-admin.jpg)
+![](./docs/create_order.png)
 
 
 
