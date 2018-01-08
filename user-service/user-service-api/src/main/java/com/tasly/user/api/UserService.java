@@ -1,5 +1,7 @@
 package com.tasly.user.api;
 
+import com.tasly.user.dto.UserDTO;
+
 import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,6 +14,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public interface UserService {
 
     @RequestMapping(value = "/{id}",method = RequestMethod.GET)
-    String getName(@PathVariable("id") String id);
+    UserDTO getName(@PathVariable("id") String id);
 
 }

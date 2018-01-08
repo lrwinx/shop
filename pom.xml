@@ -12,6 +12,7 @@
 		<module>product-service</module>
 		<module>user-service</module>
 		<module>eureka-server</module>
+		<module>commons</module>
 	</modules>
 	<packaging>pom</packaging>
 
@@ -33,6 +34,12 @@
 	</properties>
 
 	<dependencies>
+		<dependency>
+			<groupId>com.tasly.daydayup</groupId>
+			<artifactId>commons</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka</artifactId>
