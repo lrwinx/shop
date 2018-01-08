@@ -7,15 +7,18 @@
 
 ## 使用技术
 
-1. spring cloud eureka : 用于服务注册发现
+1. java 8 : 使用lambda表达式，简化写法
 
-2. spring data jpa : 数据库底层连接技术
+2. spring cloud eureka : 用于服务注册发现
 
-3. spring mvc : 访问控制层技术
+3. spring data jpa : 数据库底层连接技术
 
-4. H2 : 内存式数据库，减少DB依赖 (正式环境时，可以直接切换至MYSQL)
+4. spring mvc : 访问控制层技术
 
-5. lombok : 简化java bean的写法
+5. H2 : 内存式数据库，减少DB依赖 (正式环境时，可以直接切换至MYSQL)
+
+6. lombok : 简化java bean的写法
+
 
 ## 项目分级
 
