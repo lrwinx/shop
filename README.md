@@ -46,5 +46,9 @@
 
 ## 事务处理:
 
+## 下单流程:
+
+![](./docs/spring-boot-admin.jpg)
+
 
 
