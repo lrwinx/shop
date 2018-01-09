@@ -9,19 +9,19 @@
 
 1. java 8 : 使用lambda表达式，简化写法
 
-2. spring cloud eureka : 用于服务注册发现
+1. lombok : 简化java bean的写法
 
-3. spring data jpa : 数据库底层连接技术
+1. H2 : 内存式数据库，减少DB依赖 (正式环境时，可以直接切换至MYSQL)
 
-4. spring mvc : 访问控制层技术
+1. spring cloud eureka : 用于服务注册发现
 
-5. H2 : 内存式数据库，减少DB依赖 (正式环境时，可以直接切换至MYSQL)
+1. spring data jpa : 数据库底层连接技术
 
-6. lombok : 简化java bean的写法
+1. spring mvc : 访问控制层技术
 
-7. spring cloud robbin : 使用客户端负载均衡，进行服务提供者的调用
+1. spring cloud robbin : 使用客户端负载均衡，进行服务提供者的调用
 
-8. spring cloud feign : 分装了ribbon的使用，直接使用注解的方式，进行调用
+1. spring cloud feign : 分装了ribbon的使用，直接使用注解的方式，进行调用
 
 
 ## 项目分级
@@ -37,6 +37,8 @@
 1. 产品模块(product-service):
 
 1. 订单模块(order-service):
+
+1. 账户模块(account-service):
 
 
 ### 核心模块分层:
