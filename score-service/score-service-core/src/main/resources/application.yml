@@ -1,9 +1,9 @@
 server:
-  port: 8001
+  port: 8002
 
 spring:
   application:
-    name: user-service
+    name: score-service
 
 eureka:
   client:
