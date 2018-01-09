@@ -10,6 +10,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>account-service</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>account-service-api</module>
+        <module>account-service-core</module>
+        <module>account-service-db</module>
+    </modules>
 
 
 </project>

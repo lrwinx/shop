@@ -10,6 +10,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>order-service</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>order-service-api</module>
+        <module>order-service-core</module>
+        <module>order-service-db</module>
+    </modules>
 
 
 </project>
