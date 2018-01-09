@@ -19,6 +19,10 @@
 
 6. lombok : 简化java bean的写法
 
+7. spring cloud robbin : 使用客户端负载均衡，进行服务提供者的调用
+
+8. spring cloud feign : 分装了ribbon的使用，直接使用注解的方式，进行调用
+
 
 ## 项目分级
 
