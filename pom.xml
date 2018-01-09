@@ -13,6 +13,7 @@
 		<module>user-service</module>
 		<module>eureka-server</module>
 		<module>commons</module>
+		<module>account-service</module>
 	</modules>
 	<packaging>pom</packaging>
 
