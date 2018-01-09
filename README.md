@@ -23,6 +23,8 @@
 
 1. spring cloud feign : 分装了ribbon的使用，直接使用注解的方式，进行调用
 
+1. spring boot actuate : spring boot项目的健康检查，此项目整合了应用服务的健康状态
+
 
 ## 项目分级
 
