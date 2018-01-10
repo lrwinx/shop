@@ -15,8 +15,11 @@ eureka:
 zuul:
   routes:
    user :
-    path: /user/core/**
+    path: /user/**
     serviceId: user-service
+  ignored-patterns: /user/info
+
+
 
 
 

@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * Created by dulei on 18/1/10.
  */
-@RequestMapping("/user/agg")
+@RequestMapping("/user")
 @RestController
 public class UserController {
 
