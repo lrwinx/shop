@@ -25,6 +25,10 @@
 
 1. spring boot actuate : spring boot项目的健康检查，此项目整合了应用服务的健康状态
 
+1. spring security : 权限管理
+
+1. spring cloud zuul : 网关服务，用来聚合和管理底层微服务接口
+
 
 ## 项目分级
 

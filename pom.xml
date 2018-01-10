@@ -14,7 +14,8 @@
 		<module>eureka-server</module>
 		<module>commons</module>
 		<module>account-service</module>
-	</modules>
+        <module>api-gateway</module>
+    </modules>
 	<packaging>pom</packaging>
 
 	<name>shop</name>
