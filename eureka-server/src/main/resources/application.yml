@@ -11,3 +11,9 @@ eureka:
     fetchRegistry: false
   server:
     enableSelfPreservation: false
+
+
+# 自定义属性
+h2:
+  web:
+    enabled: true

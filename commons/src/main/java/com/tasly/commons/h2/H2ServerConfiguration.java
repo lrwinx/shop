@@ -7,17 +7,15 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 import java.sql.SQLException;
-  
-//@Configuration
+
+@Configuration
 //@Profile("dev") // Only activate this in the "dev" profile  
 public class H2ServerConfiguration {  
       
-    // TCP port for remote connections, default 9092  
-    @Value("${h2.tcp.port:9092}")  
+    @Value("${h2.tcp.port:9092}")
     private String h2TcpPort;  
   
-    // Web port, default 8082  
-    @Value("${h2.web.port:8082}")  
+    @Value("${h2.web.port:8082}")
     private String h2WebPort;  
   
     @Bean  
@@ -28,7 +26,7 @@ public class H2ServerConfiguration {
   
   
     @Bean  
-    @ConditionalOnExpression("${h2.web.enabled:true}")  
+    @ConditionalOnExpression("${h2.web.enabled:false}")
     public Server h2WebServer() throws SQLException {  
         return Server.createWebServer("-web", "-webAllowOthers", "-webPort", h2WebPort).start();  
     }  
