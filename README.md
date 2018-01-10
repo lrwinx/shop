@@ -54,9 +54,10 @@
 
 ## 事务处理:
 
-## 下单流程:
 
-![](./docs/create_order.png)
+## h2数据库的查看:
 
+启动任意项目，可以访问http://localhost:8082/,进行h2数据库的操作:
 
+![](./docs/images/h2_web_utils.jpg)
 

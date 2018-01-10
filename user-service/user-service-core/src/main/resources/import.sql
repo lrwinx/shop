@@ -1,0 +1,1 @@
+INSERT INTO USER VALUES (1,'zhangsan',24,'admin','admin')
