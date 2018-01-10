@@ -13,8 +13,7 @@ import java.math.BigDecimal;
 @FeignClient(value = "account-service")
 public interface AccountService {
 
-
     @RequestMapping(value = "/{uid}",method = RequestMethod.GET)
-    BigDecimal remainTotalMoney(@PathVariable("uid") Long id);
+    BigDecimal remainTotalMoney(@PathVariable("uid") Long uid);
 
 }

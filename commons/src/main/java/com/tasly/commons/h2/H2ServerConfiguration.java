@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 
 import java.sql.SQLException;
   
-@Configuration  
+//@Configuration
 //@Profile("dev") // Only activate this in the "dev" profile  
 public class H2ServerConfiguration {  
       
