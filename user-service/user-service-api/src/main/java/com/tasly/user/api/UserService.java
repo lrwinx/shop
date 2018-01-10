@@ -4,7 +4,7 @@ import com.tasly.user.dto.UserDTO;
 import com.tasly.user.dto.UsernameAndPasswordDTO;
 
 import org.springframework.cloud.netflix.feign.FeignClient;
-import org.springframework.web.bind.annotation.RequestHeader;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
@@ -18,7 +18,7 @@ public interface UserService {
     UserDTO getByUsernameAndPasswordDTO(UsernameAndPasswordDTO usernameAndPasswordDTO);
 
 
-    @RequestMapping(value = "/1",method = RequestMethod.GET)
-    UserDTO get(@RequestHeader("id") Long id);
+    @RequestMapping(value = "/{uid}",method = RequestMethod.GET)
+    UserDTO get(@PathVariable("uid") Long uid);
 
 }
