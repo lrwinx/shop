@@ -57,6 +57,40 @@
 
 ## h2数据库的查看:
 
+### 查看h2数据库信息:
+
+开启debug日志:
+
+    logging:
+      level:
+       org:
+        hibernate: DEBUG
+
+查找到数据库访问信息 :
+
+    2018-01-10 13:07:48.928 DEBUG 18694 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : PersistenceUnitInfo [
+        name: default
+        persistence provider classname: null
+        classloader: sun.misc.Launcher$AppClassLoader@14dad5dc
+        excludeUnlistedClasses: true
+        JTA datasource: null
+        Non JTA datasource: org.apache.tomcat.jdbc.pool.DataSource@20ffb8d5{ConnectionPool[defaultAutoCommit=null; defaultReadOnly=null; defaultTransactionIsolation=-1; defaultCatalog=null; driverClassName=org.h2.Driver; maxActive=100; maxIdle=100; minIdle=10; initialSize=10; maxWait=30000; testOnBorrow=true; testOnReturn=false; timeBetweenEvictionRunsMillis=5000; numTestsPerEvictionRun=0; minEvictableIdleTimeMillis=60000; testWhileIdle=false; testOnConnect=false; password=********; url=jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE; username=sa; validationQuery=SELECT 1; validationQueryTimeout=-1; validatorClassName=null; validationInterval=3000; accessToUnderlyingConnectionAllowed=true; removeAbandoned=false; removeAbandonedTimeout=60; logAbandoned=false; connectionProperties=null; initSQL=null; jdbcInterceptors=null; jmxEnabled=true; fairQueue=true; useEquals=true; abandonWhenPercentageFull=0; maxAge=0; useLock=false; dataSource=null; dataSourceJNDI=null; suspectTimeout=0; alternateUsernameAllowed=false; commitOnReturn=false; rollbackOnReturn=false; useDisposableConnectionFacade=true; logValidationErrors=false; propagateInterruptState=false; ignoreExceptionOnPreLoad=false; useStatementFacade=true; }
+        Transaction type: RESOURCE_LOCAL
+        PU root URL: file:/git/shop/user-service/user-service-core/target/classes/
+        Shared Cache Mode: UNSPECIFIED
+        Validation Mode: AUTO
+        Jar files URLs []
+        Managed classes names [
+            com.tasly.user.db.domain.User]
+        Mapping files names []
+        Properties []
+
+关键信息: jdbc:h2:mem:testdb
+用户名:sa
+密码默认为空
+
+### web页面访问h2数据库:
+
 启动任意项目，可以访问http://localhost:8082/,进行h2数据库的操作:
 
 ![](./docs/images/h2_web_utils.jpg)
