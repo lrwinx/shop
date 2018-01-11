@@ -14,7 +14,6 @@
     <modules>
         <module>user-service-api</module>
         <module>user-service-core</module>
-        <module>user-service-db</module>
     </modules>
 
 
