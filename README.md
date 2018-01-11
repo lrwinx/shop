@@ -46,8 +46,6 @@
 
 1. 订单模块(order-service):
 
-1. 账户模块(account-service):
-
 
 ### 核心模块分层:
 
