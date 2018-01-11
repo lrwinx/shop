@@ -29,6 +29,8 @@
 
 1. spring cloud zuul : 网关服务，用来聚合和管理底层微服务接口
 
+1. spring cloud config : 集中配置管理，整合各个微服务下的不同配置文件
+
 
 ## 项目分级
 
