@@ -11,6 +11,7 @@
 
     <artifactId>commons</artifactId>
 
+    <packaging>jar</packaging>
 
     <dependencies>
         <dependency>
@@ -18,4 +19,7 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
     </dependencies>
+
+
+
 </project>

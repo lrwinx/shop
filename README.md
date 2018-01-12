@@ -11,6 +11,8 @@
 
 1. lombok : 简化java bean的写法
 
+1. docker-maven-plugin : 直接生成Dockerfile (本地需更换成阿里云镜像，速度和成功率会提升很多)
+
 1. H2 : 内存式数据库，减少DB依赖 (正式环境时，可以直接切换至MYSQL)
 
 1. spring cloud eureka : 用于服务注册发现

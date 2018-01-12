@@ -9,7 +9,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <packaging>jar</packaging>
+
     <artifactId>user-service-core</artifactId>
+
     <dependencies>
         <dependency>
             <groupId>com.tasly.daydayup</groupId>
