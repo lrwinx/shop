@@ -32,6 +32,12 @@
 1. spring cloud config : 集中配置管理，整合各个微服务下的不同配置文件
 
 
+客户端需要启动定时任务@EnableScheduling这个注解,然后调用refresh接口，才起作用
+     
+    curl -X POST http://localhost:8001/refresh
+    
+
+
 ## 项目分级
 
 ### 业务分级

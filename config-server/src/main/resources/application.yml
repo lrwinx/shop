@@ -10,7 +10,7 @@ spring:
     config:
       server:
         native:
-          search-locations: classpath:/config
+          search-locations: /git/shop/config-server/src/main/resources/config
 
 eureka:
   client:
@@ -18,5 +18,9 @@ eureka:
       defaultZone: http://localhost:8501/eureka/
   instance:
       instanceId: ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${server.port}}
+
+management:
+  security:
+    enabled: false
 
 
