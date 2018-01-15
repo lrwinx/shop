@@ -66,7 +66,11 @@
 
 ## 关于我
 
-博客: http://lrwinx.github.io
+1. author : Lrwin
+1. blog : http://lrwinx.github.io/
+1. email : dreamfly@126.com
+1. github : https://github.com/lrwinx
+1. city : TianJin
 
 
 
