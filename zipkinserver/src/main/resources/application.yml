@@ -1,3 +1,5 @@
+server:
+  port: 9411
 
 eureka:
   client:
@@ -12,19 +14,9 @@ logging:
   level:
    org:
     hibernate: DEBUG
-   org.springframework.clud.sleuth: DEBUG
 management:
   security:
     enabled: false
-spring:
-  zipkin:
-    base-url: http://localhost:9411
-  sleuth:
-    sampler:
-      percentage: 1.0
-
-
-
 
 
 

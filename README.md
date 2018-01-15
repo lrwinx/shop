@@ -33,6 +33,10 @@
 
 1. spring cloud config : 集中配置管理，整合各个微服务下的不同配置文件
 
+1. spring cloud zipkin : 微服务调用监控系统，可以监听整个调用连
+
+
+
     
 ## 技术文档
 

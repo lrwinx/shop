@@ -16,6 +16,7 @@
         <module>commons</module>
         <module>api-gateway</module>
         <module>config-server</module>
+        <module>zipkinserver</module>
     </modules>
     <packaging>pom</packaging>
 

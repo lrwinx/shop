@@ -4,6 +4,11 @@ server:
 spring:
   application:
     name: score-service
+  zipkin:
+      base-url: http://localhost:9411
+  sleuth:
+    sampler:
+      percentage: 1.0
 
 eureka:
   client:
@@ -12,3 +17,8 @@ eureka:
   instance:
       instanceId: ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${server.port}}
 
+logging:
+  level:
+   org:
+    hibernate: DEBUG
+   org.springframework.clud.sleuth: DEBUG
