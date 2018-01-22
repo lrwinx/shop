@@ -50,6 +50,12 @@
             <artifactId>lombok</artifactId>
             <optional>false</optional>
         </dependency>
+
+        <dependency>
+            <groupId>org.bytesoft</groupId>
+            <artifactId>bytetcc-supports-springcloud</artifactId>
+            <version>0.4.1</version>
+        </dependency>
     </dependencies>
 
     <dependencyManagement>

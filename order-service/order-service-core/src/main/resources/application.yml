@@ -1,0 +1,24 @@
+server:
+  port: 8004
+
+spring:
+  application:
+    name: order-service
+  zipkin:
+      base-url: http://localhost:9411
+  sleuth:
+    sampler:
+      percentage: 1.0
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8501/eureka/
+  instance:
+      instanceId: ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${server.port}}
+
+logging:
+  level:
+   org:
+    hibernate: DEBUG
+   org.springframework.clud.sleuth: DEBUG

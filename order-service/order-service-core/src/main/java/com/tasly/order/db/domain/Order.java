@@ -1,5 +1,7 @@
 package com.tasly.order.db.domain;
 
+import com.tasly.order.db.status.OrderStatus;
+
 import java.math.BigDecimal;
 
 import javax.persistence.Entity;
@@ -21,4 +23,6 @@ public class Order {
     private String name;
 
     private BigDecimal price;
+
+    private OrderStatus orderStatus;
 }

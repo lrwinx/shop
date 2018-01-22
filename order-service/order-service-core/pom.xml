@@ -46,5 +46,10 @@
             <artifactId>order-service-api</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>com.tasly.daydayup</groupId>
+            <artifactId>score-service-api</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 </project>

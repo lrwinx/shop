@@ -12,11 +12,11 @@ import org.springframework.context.annotation.ImportResource;
 @EnableDiscoveryClient
 @EnableEurekaClient
 @SpringBootApplication
-public class ScoreServiceApplication {
+public class OrderServiceApplication {
 
 
 	public static void main(String[] args) {
-		SpringApplication.run(ScoreServiceApplication.class, args);
+		SpringApplication.run(OrderServiceApplication.class, args);
 	}
 
 }
